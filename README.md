@@ -41,4 +41,13 @@ This report analyzes a synthetic phishing email sample (phishing_sample.eml) cre
 ---
 
 ## Header Analysis
+1. Open [MXToolbox](https://mxtoolbox.com/EmailHeaders.aspx).
+2. Inside email header analyzer, paste the contents of [phishing_headers.txt](phishing_headers.txt) (or the header block) into the box.
+3. Click Analyze Header.
+
+![Alt Text](images/HeaderAnalysis.PNG)
+
+- **Analyzed Reports:**
+![Alt Text](images/AnalysisReportI.PNG)
+![Alt Text](images/AnalysisReportII.PNG)
 
