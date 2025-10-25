@@ -47,7 +47,9 @@ This report analyzes a synthetic phishing email sample (phishing_sample.eml) cre
 
 ![Alt Text](images/HeaderAnalysis.png)
 
-- **Analyzed Reports:**
+
+4. Analyzed Reports:
+
 ![Alt Text](images/AnalysisReportI.png)
 ![Alt Text](images/AnalysisReportII.png)
 
