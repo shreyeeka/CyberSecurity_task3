@@ -1,0 +1,22 @@
+Return-Path: <security@paypa1.com>
+Received: from unknown (HELO mail.paypa1.com) (203.0.113.45) by mail.example.com with SMTP; Thu, 24 Oct 2025 10:15:22 +0000
+Received: from mail.paypa1.com (203.0.113.45) by mx.google.com with ESMTPS id abc123; Thu, 24 Oct 2025 10:15:21 +0000
+From: "PayPal Security" <security@paypa1.com>
+To: user@example.com
+Subject: Urgent: Verify Your PayPal Account Now
+Date: Thu, 24 Oct 2025 10:15:22 +0000
+Message-ID: <20251024101522.abc123@mail.paypa1.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Customer,
+
+We detected suspicious activity on your PayPal account and have temporarily restricted access.
+To avoid permanent suspension, please verify your account immediately by clicking the link below:
+
+Verify Now: https://paypal-security-login.net/verify
+
+If you do not verify within 24 hours, your account will be permanently suspended.
+
+Sincerely,
+PayPal Security Team
