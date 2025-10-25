@@ -34,7 +34,7 @@ This report analyzes a synthetic phishing email sample (phishing_sample.eml) cre
 ## Raw header (extracted)
 - **To extract headers, in my case (macOS), the mentioned command is used:**
     - sed -n '1,/^$/p' phishing_sample.eml > phishing_headers.txt
-    - cat phishing_headers.txt
+    - cat phishing_headers.txt ([Extracted header](phishing_headers.txt))
 
 ![Alt Text](images/HeaderExtract.PNG) 
 
