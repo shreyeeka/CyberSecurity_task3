@@ -20,7 +20,7 @@ Identify phishing characteristics in a suspicious email sample
 ---
 
 ## Sample Email
-- **[phishing_sample.eml](phishing_sample.eml)**
+- **File: [phishing_sample.eml](phishing_sample.eml)**
 
 ![Alt Text](images/SampleEmail.PNG)
 
@@ -53,3 +53,16 @@ This report analyzes a synthetic phishing email sample (phishing_sample.eml) cre
 ![Alt Text](images/AnalysisReportI.png)
 ![Alt Text](images/AnalysisReportII.png)
 
+---
+
+## Findings/Summary:
+- **Spoofed sender domain (paypa1.com)**
+- **Suspicious origin IP**
+- **Urgent/pressure language**
+- **Generic greeting**
+- **Suspicious/mismatched URLs**
+
+---
+
+## Outcome:
+Awareness of phishing tactics and email threat analysis skills.
