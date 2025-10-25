@@ -70,11 +70,11 @@ This report analyzes a synthetic phishing email sample (phishing_sample.eml) cre
 
 ## Findings/Summary:
 1. <h3>Header-Level Findings:</h3>
-   - **Spoofed sender domain:- From: security@paypa1.com → uses “1” instead of “l” to imitate PayPal**
-   - **Return-Path mismatch: Domain doesn’t match legitimate PayPal servers**
-   - **Origin IP: 203.0.113.45 — unrelated to PayPal infrastructure**
-   - **Missing SPF/DKIM/DMARC: No authentication found, typical of forged emails**
-   - **Message-ID anomaly: Message ID created under the spoofed domain**
+- **Spoofed sender domain:- From: security@paypa1.com → uses “1” instead of “l” to imitate PayPal**
+- **Return-Path mismatch: Domain doesn’t match legitimate PayPal servers**
+- **Origin IP: 203.0.113.45 — unrelated to PayPal infrastructure**
+- **Missing SPF/DKIM/DMARC: No authentication found, typical of forged emails**
+- **Message-ID anomaly: Message ID created under the spoofed domain**
 
 2. <h3>Body-Level Findings:</h3>
    - **Urgent / threatening tone: “Verify within 24 hours” → pressure tactic**
