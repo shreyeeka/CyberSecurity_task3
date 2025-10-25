@@ -24,3 +24,21 @@ Identify phishing characteristics in a suspicious email sample
 
 ![Alt Text](images/SampleEmail.PNG)
 
+---
+
+## Executive summary
+This report analyzes a synthetic phishing email sample (phishing_sample.eml) created for training. The message simulates a PayPal-themed credential phishing attempt and exhibits multiple classic phishing indicators: spoofed sending domain, suspicious hosting IP, urgent/pressure language, and a mismatched suspicious link
+
+---
+
+## Raw header (extracted)
+- **To extract headers, in my case (macOS), the mentioned command is used:**
+    - sed -n '1,/^$/p' phishing_sample.eml > phishing_headers.txt
+    - cat phishing_headers.txt
+
+![Alt Text](images/HeaderExtract.PNG) 
+
+---
+
+## Header Analysis
+
