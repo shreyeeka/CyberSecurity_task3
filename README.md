@@ -5,7 +5,7 @@ Identify phishing characteristics in a suspicious email sample
 
 ## Tools:
 - **Email client or saved email file (text)**
-- **Free online header analyzer (e.g. https://mxtoolbox.com/EmailHeaders.aspx)**
+- **Free online header analyzer (e.g. [MX toolbox](https://mxtoolbox.com/EmailHeaders.aspx))**
 
 ## Guide
 1. Obtain a sample phishing email (many free samples online)
