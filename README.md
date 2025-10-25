@@ -54,16 +54,35 @@ This report analyzes a synthetic phishing email sample (phishing_sample.eml) cre
 ![Alt Text](images/AnalysisReportII.png)
 
 - Results:
-
+1. Sender: "PayPal Security" <security@paypa1.com> i.e, spoofed domain (paypa1.com instead of paypal.com)
+2. Return-Path: <security@paypa1.com> — matches the spoofed sender, confirming fake origin
+3. Received hops:
+   - mail.paypa1.com (203.0.113.45) → mx.google.com
+   - unknown (203.0.113.45) → mail.example.com
+   - Shows message routed through an unrecognized external server, not PayPal’s network
+4. Relay delay: 0 seconds. This indicates immediate transfer, typical in synthetic or automated spam/phishing emails
+5. Origin IP: 203.0.113.45 — not part of PayPal’s legitimate IP range; likely forged
+6. Blacklist check: Passed (no blacklist entries), but that doesn’t prove legitimacy (phishing emails often use new or clean domains)
+7. SPF/DKIM/DMARC: Missing — no authentication detected in the header
+8. Message-ID: <20251024101522.abc123@mail.paypa1.com> — generated from the spoofed domain
 
 ---
 
 ## Findings/Summary:
-- **Spoofed sender domain (paypa1.com)**
-- **Suspicious origin IP**
-- **Urgent/pressure language**
-- **Generic greeting**
-- **Suspicious/mismatched URLs**
+1. Header-Level Findings:
+   - Spoofed sender domain:- From: security@paypa1.com → uses “1” instead of “l” to imitate PayPal
+   - Return-Path mismatch: Domain doesn’t match legitimate PayPal servers
+   - Origin IP: 203.0.113.45 — unrelated to PayPal infrastructure
+   - Missing SPF/DKIM/DMARC: No authentication found, typical of forged emails
+   - Message-ID anomaly: Message ID created under the spoofed domain
+
+2. Body-Level Findings:
+   - Urgent / threatening tone: “Verify within 24 hours” → pressure tactic
+   - Generic greeting: “Dear Customer” instead of recipient’s real name
+   - Suspicious link: https://paypal-security-login.net/verify → fake domain pretending to be PayPal
+   - Mismatched link text: “Verify Now” hides a malicious URL
+   - Minor grammar issues: Slightly awkward phrasing common in phishing messages
+   - Lack of personalization: No mention of account details or user identity
 
 ---
 
