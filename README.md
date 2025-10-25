@@ -20,5 +20,7 @@ Identify phishing characteristics in a suspicious email sample
 ---
 
 ## Sample Email
-- **[]()**
+- **[phishing_sample.eml](phishing_sample.eml)**
+
+![Alt Text](images/Sample email.PNG)
 
