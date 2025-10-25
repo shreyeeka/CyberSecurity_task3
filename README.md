@@ -54,8 +54,8 @@ This report analyzes a synthetic phishing email sample (phishing_sample.eml) cre
 ![Alt Text](images/AnalysisReportII.png)
 
 - <h3>Results:</h3>
-   1. Sender: "PayPal Security" <security@paypa1.com> i.e, spoofed domain (paypa1.com instead of paypal.com)
-   2. Return-Path: <security@paypa1.com> — matches the spoofed sender, confirming fake origin
+1. Sender: "PayPal Security" <security@paypa1.com> i.e, spoofed domain (paypa1.com instead of paypal.com)
+2. Return-Path: <security@paypa1.com> — matches the spoofed sender, confirming fake origin
 3. Received hops:
    - mail.paypa1.com (203.0.113.45) → mx.google.com
    - unknown (203.0.113.45) → mail.example.com
