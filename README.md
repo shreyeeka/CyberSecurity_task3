@@ -7,6 +7,16 @@ Identify phishing characteristics in a suspicious email sample
 - **Email client or saved email file (text)**
 - **Free online header analyzer (e.g. [MX toolbox](https://mxtoolbox.com/EmailHeaders.aspx))**
 
+## Table of content
+- [Objective](#objective)
+- [Sample Email](#sample-email)
+- [Executive Summary](#executive-summary)
+- [Raw header (extracted)](#raw-header-extracted)
+- [Header Analysis](#header-analysis)
+- [Analyzed Reports](#4-analyzed-reports)
+- [Results](#results)
+- [Findings/Summary](#findingssummary)
+
 ## Guide
 1. Obtain a sample phishing email (many free samples online)
 2. Examine sender's email address for spoofing
@@ -48,12 +58,12 @@ This report analyzes a synthetic phishing email sample (phishing_sample.eml) cre
 ![Alt Text](images/HeaderAnalysis.png)
 
 
-4. Analyzed Reports:
+### 4. Analyzed Reports:
 
 ![Alt Text](images/AnalysisReportI.png)
 ![Alt Text](images/AnalysisReportII.png)
 
-- <h3>Results:</h3>
+### Results:
 1. Sender: "PayPal Security" <security@paypa1.com> i.e, spoofed domain (paypa1.com instead of paypal.com)
 2. Return-Path: <security@paypa1.com> — matches the spoofed sender, confirming fake origin
 3. Received hops:
